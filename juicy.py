@@ -81,3 +81,6 @@ def index():
     }
     return render_template('index.html', **ctx)
 
+
+if __name__ == '__main__':
+    app.run()
